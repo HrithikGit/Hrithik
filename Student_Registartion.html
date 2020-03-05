@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+</head>
+<body>
+	<h1 align="center"><u>Student Registration Form</u></h1>
+	<form>
+		<label for="text_name"><strong>Name </strong></label>
+		<input type="text" name ="text_name" placeholder="Enter your name here"><br><br>
+
+		<label for="roll"><strong>Roll Number </strong></label>
+		<input type="text" name ="roll" placeholder="Enter your Roll Number here"><br><br>
+
+		<label for="email"><strong>Mail Id</strong></label>
+		<input type="text" name ="email" placeholder="Enter your valid-email here"><br><br>
+		<label for="phone"><strong>Mobile No</strong></label>
+		<input type="text" name ="phone" placeholder="Enter your 10-digit Mobile Number"><br><br>
+
+		<label for="gender"><strong>Gender</strong></label>
+		<select name="gender" placeholder="Select Gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Others">Others</option>
+		</select>
+		<br><br>
+
+		<label><strong>Select your Branch</strong></label><br>
+		<input type="radio" name="branch" value="CSE">Computer Science
+		<input type="radio" name="branch" value="IT">Information Technology<br><br>
+
+		<label><strong>Select a Course for SONET(First Preference)</strong></label><br>
+		<input type="radio" name="Course" value="FSWD">Full Stack Web Development<br>
+		<input type="radio" name="Course" value="IOS">IOS App Development<br>
+		<input type="radio" name="Course" value="Python">Python<br>
+		<input type="radio" name="Course" value="ML">Machine Learning with Tensorflow<br><br>
+
+		<label><strong>(Second Preference)</strong></label><br>
+		<input type="radio" name="Course" value="FSWD">Full Stack Web Development<br>
+		<input type="radio" name="Course" value="IOS">IOS App Development<br>
+		<input type="radio" name="Course" value="Python">Python<br>
+		<input type="radio" name="Course" value="ML">Machine Learning with Tensorflow<br><br>
+
+		<label><strong>(Third Preference)</strong></label><br>
+		<input type="radio" name="Course" value="FSWD">Full Stack Web Development<br>
+		<input type="radio" name="Course" value="IOS">IOS App Development<br>
+		<input type="radio" name="Course" value="Python">Python<br>
+		<input type="radio" name="Course" value="ML">Machine Learning with Tensorflow<br><br>
+
+		<label><strong>(Last Preference)</strong></label><br>
+		<input type="radio" name="Course" value="FSWD">Full Stack Web Development<br>
+		<input type="radio" name="Course" value="IOS">IOS App Development<br>
+		<input type="radio" name="Course" value="Python">Python<br>
+		<input type="radio" name="Course" value="ML">Machine Learning with Tensorflow<br><br>
+        <span><Strong>Note : </Strong> Choosing Same option twice or more could be result in no allocation</span><br>
+        <br>
+
+		<label for="gpa"><strong>Cummilative GPA</strong></label><br>
+		<input type="text" name="gpa"><br>
+		<span> (Course would be alloted according to your GPA)</span>
+		<br><br>
+		<input type="checkbox" name="Accept">
+		<label for="Accept">
+			I Agree to attend all SONET classes with maximum homework 
+		</label><br><br>
+		<input type="submit" value="Submit">
+	</form>	
+</body>
+</html>

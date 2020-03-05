@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function createJSON(){
+            var n1  = document.getElementById("st1n1");
+            var y1  = document.getElementById("st1y1");
+            var h1  = document.getElementById("st1h");
+            var stu1 ={name : n1 ,year:y1,hallticket:h1};
+            console.log(stu2);
+
+            var n2  = document.getElementById("st1n1");
+            var y2  = document.getElementById("st1y1");
+            var h2  = document.getElementById("st1h");
+            var stu2 ={name : n2 ,year:y2,hallticket:h2};
+            console.log(stu2);
+            document.write("<table border='2' width='50%'>")
+                document.write("<tr>")
+                document.write("<td>"+stu1.name+"</td><td>"+stu1.year+"</td><td>"+stu1.year)
+                ddocument.write("</tr>")
+            document.write("</table>")
+        }
+    </script>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <h3> Student 1</h3>
+    Name : <input type="text" id="st1n1"><br>
+    Year : <input type="text" id="st1y1"><br>
+    Hall Ticket : <input type="text" id="st1h"><br>
+    <h3> Student 1</h3>
+    Name : <input type="text" id="st2n2"><br>
+    Year : <input type="text" id="st2y2"><br>
+    Hall Ticket : <input type="text" id="st2h"><br>
+
+    <input type="button" value="ClickMe" onclick="createJSON();"
+</body>
+</html>
